@@ -1,20 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <lana />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Lana from './components/Lana.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
-  },
-};
+    Lana
+  }
+}
 </script>
 
 <style lang="scss">
+@import '~bulma/bulma.sass';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
